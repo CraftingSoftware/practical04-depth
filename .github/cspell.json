@@ -19,7 +19,9 @@
         "mkdir",
         "checkmark",
         "checkmarks",
-        "typer"
+        "typer",
+        "gatorgrade",
+        "gradebook"
     ],
     "ignorePaths": [
         ".github/**"
