@@ -51,26 +51,24 @@ Look through `datastore.py`, `kv_get.py`, and `kv_put.py` and identify two sourc
 
 In `writing/reflection.md`, propose a way to fix one source of information leakage identified in the previous step.
 
-### Run GatorGrader
+## Running GatorGrader
 
-To check your approximate progress on this assignment, [run GatorGrader](https://proactiveprogrammers.com/proactive-skills/technical-skills/using-gatorgrader/).
+You can gain an approximation of your progress on this assignment by running [GatorGrader](https://github.com/GatorEducator/gatorgrader) locally. You do need to have `gatorgrade` and Python installed to be able to run this command.
 
-## Assessment Strategy
+```bash
+gatorgrade --config config/gatorgrade.yml
+```
 
-This assignment will be assessed based on the following components:
+## Receiving Assistance
 
-- **Percentage of Passing GatorGrader Checks**: If source code is required, you should repeatedly update the implementation of your source code until it passes all of the GatorGrader checks by, for instance, producing the correct output. If technical writing is required, you should repeatedly revise your technical writing until it also passes all of GatorGrader's checks about, for instance, the length of its content.
-- **Percentage of Passing GitHub Actions Checks**: You will receive checkmarks for any additional checks on source code and/or technical writing, other than the "Run GatorGrader" check, that are encoded in GitHub Actions. You will receive a checkmark for each passing GitHub Actions check. As with the previous grading component, you are encouraged to repeatedly amend your source code and/or technical writing until all of your GitHub Actions checks pass.
+If you are having trouble completing any part of this project, then please talk with either the course instructor or a student technical leader during the practical session. Alternatively, you may ask questions in the Discord channel for this course. Finally, you can schedule a meeting during the course instructor's office hours.
 
-  - Please note that the "Check Spelling" GitHub Actions check may flag proper nouns or other real words if the dictionary it uses does not contain them. If your "Check Spelling" GitHub Actions check is failing due to a correctly spelled word being incorrectly flagged as "unknown" by CSpell, you will need to add the word to the list of words in `.github/cspell.json`.
+## Practical Assessment
 
-- **Mastery of Software Engineering Concepts and Skills**: You will receive a checkmark for demonstrating mastery of each of the following concepts and skills of software engineering exercised in this assignment. If you receive checkmarks for all of the following concepts and skills, you will know that you have mastered all of the learning objectives of this assignment. For this assignment, you must:
+The grade that a student receives on this practical assignment is a checkmark grade (0 or 1) and is based on:
 
-  - Make small, focused commits
-  - Write commit messages that abide by [the seven rules of a great Git commit message](https://cbea.ms/git-commit/)
-  - Correctly describe the complexity of an interface
-  - Correctly analyze the depths of modules
-  - Correctly explain the relationship between module depth and interface complexity
-  - Correctly define temporal decomposition
-  - Correctly identify sources of information leakage
-  - Correctly propose a fix for one source of information leakage
+- **GitHub Actions CI Build Status**: Students are encouraged to repeatedly try to complete the assignment until it passes all GitHub Actions jobs. Students will receive a checkmark grade if their last before-the-deadline build passes and a green ✔ appears in their GitHub commit log instead of a red ✗.
+
+Students will receive 1 if their solution passes all GatorGrader checks and receives a green ✔ in their last commit.
+
+All grades for this project will be reported through a student's GitHub gradebook repository.
