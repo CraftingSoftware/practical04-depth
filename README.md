@@ -1,9 +1,5 @@
 # Analyzing Module Depth and Identifying Information Leakage
 
-## Due Date
-
-Friday, November 4th, 2022 by midnight
-
 ## Introduction
 
 In this practical assignment, you will analyze the depth of modules and identify sources of information leakage. Through this exercise, you will put into practice the following learning objectives:
